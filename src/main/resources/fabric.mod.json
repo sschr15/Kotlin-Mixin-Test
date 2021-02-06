@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "kotlin-mixin-example",
+    "version": "${version}",
+    "name": "KotlinMixinExample",
+    "description": "A quick test of a mixin using Kotlin",
+    "authors": [
+        "sschr15"
+    ],
+    "contact": {
+        "website": ":tiny_potato:"
+    },
+    "license": "MPL-2.0",
+    "icon": "assets/KotlinMixinExample/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "client": [
+            {
+                "adapter": "kotlin",
+                "value": "sschr15.fabricmods.experiments.kotlinmixins.KotlinMixinTest"
+            }
+        ]
+    },
+    "mixins": [
+        "KotlinMixinExample.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.11.1",
+        "minecraft": "1.16.4"
+    }
+}
