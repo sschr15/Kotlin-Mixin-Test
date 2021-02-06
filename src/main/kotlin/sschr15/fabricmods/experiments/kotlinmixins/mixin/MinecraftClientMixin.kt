@@ -25,6 +25,3 @@ abstract class MinecraftClientMixin : MinecraftClientAccessor {
         logger.info("The current version is '$version' and the window title is '${windowTitle()}', I think...")
     }
 }
-
-
-
